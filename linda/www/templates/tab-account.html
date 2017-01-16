@@ -1,0 +1,14 @@
+<ion-view view-title="All Competitions">
+  <ion-content>
+    <div class="card" ng-repeat="comps in comp" ui-sref="tab.leagueTeams({id:comps.id})">
+      <ion-card-content style="padding-left:10px;padding-top:20px;padding-bottom:20px;">
+        {{comps.caption}}
+      </ion-card-content>
+    </div>
+   <!-- <ion-list>
+    <ion-toggle  ng-model="settings.enableFriends">
+        Enable Friends
+    </ion-toggle>
+    </ion-list>-->
+  </ion-content>
+</ion-view>

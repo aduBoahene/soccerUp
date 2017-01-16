@@ -1,0 +1,15 @@
+<ion-view view-title="Teams">
+  <ion-content>
+    <div class="card" >
+      <div class="row" ng-repeat="team in teams" style="padding-left:10px;padding-top:20px;padding-bottom:20px;text-align:center">
+         <div class="col col-50"><img src={{team.crestUrl}}/></div>
+         <div class="col col-50"><img src={{team.crestUrl}}/></div>
+      </div>
+    </div>
+   <!-- <ion-list>
+    <ion-toggle  ng-model="settings.enableFriends">
+        Enable Friends
+    </ion-toggle>
+    </ion-list>-->
+  </ion-content>
+</ion-view>
